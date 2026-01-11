@@ -1,0 +1,33 @@
+// used to run code in python
+python -m filename
+
+
+Git co -b featureName //co for checkout, -b creates the branch
+Git branch // to varify this with the command
+Git commit -m “comments here”
+Git push
+ 
+Git stash -u //save workin progress for pieces codes that’s have done or experimental
+Git stash pop //to apply changes to working directory
+Git merge featureName //to changes to master branch
+Git merge featureName —squash //for commits that are irrelevant to the master
+ 
+Git fetch remotename //fetches updates made to a remote repo
+
+Git merge remotename/branchname //merges  updates made online with local work
+ 
+Git pull remotename branchname //grabs online updates and merges with local. Commit local before running pull command
+ 
+Git merge —abort //takes the branch back to where it was in before pulled into when theres a merge conflicts
+ 
+git remote -v    //list exiting remotes in order
+ 
+Git remote set-url origin http:/   //to change repo
+Git chechout -b mybranch //switch to a new branch mybranch or
+Git branch mybranch //and
+Git checkout mybranch
+Git checkout master
+Git merge mybranch
+Git branch -d mybranch // to delete branch
+Git status
+rm -rf .git // remove git repo
