@@ -31,3 +31,6 @@ Git merge mybranch
 Git branch -d mybranch // to delete branch
 Git status
 rm -rf .git // remove git repo
+ git add . // add something new yo existing repo
+ git commit -m "new update"
+  git push origin main
